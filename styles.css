@@ -1,30 +1,48 @@
-#InputNotas{
+
+body{
+    background-color: linear-gradient(rgb(45, 58, 103), rgb(148, 148, 229)) !important; 
     display: flex;
     flex-direction: column;
     gap: 5px;
-    padding: 5px;
-    width: 40%;
     position: absolute;
-    margin-left: 30%;
+    width: 70%;
+    margin-left: 25%;
+    margin-top: 8%;
 }
 
+h1, p {
+    color:white !important;
+}
 
 #container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 5px;
     padding: 5px;
-    width: 40%;
-
+    width: 60%;
+    background-color: rgb(206, 156, 253);
+    padding: 5%;
 }
 
-#Resultado{
+#InputNotas{
     display: flex;
+    border-radius: 5%;
+    justify-content: center;
     flex-direction: column;
-    gap: 5px;
-    padding: 5px;
-    width: 40%;
-    position: absolute;
-    margin-left: 30%;
-    margin-top: 20%;
+}
+
+.campofalse{
+    border:5px solid red !important;
+    border-radius: 5%;
+}
+
+.campotrue{
+    border: 5px solid green !important;
+    border-radius: 5%;
+}
+
+.campomayor{
+    border: 5px solid blue !important;
+    border-radius: 5%;
 }
