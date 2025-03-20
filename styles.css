@@ -1,13 +1,15 @@
-
 body{
     background-color: linear-gradient(rgb(45, 58, 103), rgb(148, 148, 229)) !important; 
     display: flex;
     flex-direction: column;
     gap: 5px;
     position: absolute;
-    width: 70%;
-    margin-left: 25%;
-    margin-top: 8%;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1, p {
